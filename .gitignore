@@ -1,0 +1,39 @@
+# Python-related files and directories
+__pycache__/
+*.pyc
+*.pyo
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+__pycache__/
+*.pyc
+*.pyo
+*.so
+*.egg-info/
+dist/
+build/
+lib/
+lib64/
+include/
+# Exclude virtual environment
+venv/
+env/
+ENV/
+/.python-version
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# Visual Studio Code settings
+.vscode/
+# PyCharm settings
+.idea/
+# Data and model files (customize as needed)
+data/
+models/
+# Local settings (e.g., credentials, API keys; do not share these)
+config.py
+secrets.py
+.env
