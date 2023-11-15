@@ -1,12 +1,15 @@
 import os
+os.chdir("C:/Users/sahil/Desktop/ml/houseprice")
+
 import sys
-from logger import logging
-from exception import CustomException
+sys.path.append(r"C:\Users\sahil\Desktop\ml\houseprice")
+from src.logger import logging
+from src.exception import CustomException
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
 
-from components.data_transformation import DataTransformation
+from src.components.data_transformation import DataTransformation
 
 
 ## Intitialize the Data Ingetion Configuration
